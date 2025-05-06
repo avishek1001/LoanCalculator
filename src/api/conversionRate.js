@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// API
 const KEY = import.meta.env.VITE_API_KEY;
 
 const URL = `https://v6.exchangerate-api.com/v6/${KEY}/latest/USD`
