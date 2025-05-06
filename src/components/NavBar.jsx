@@ -11,7 +11,12 @@ export default function NavBar() {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Loan Calculator
                     </Typography>
-                    <Button color="primary" variant="contained">Home</Button>
+                    <Button color="primary" variant="contained"
+                        component={Link}
+                        to='/'
+                    >
+                        Home
+                    </Button>
                     <Button color="inherit"
                         component={Link}
                         to="/exchange"
